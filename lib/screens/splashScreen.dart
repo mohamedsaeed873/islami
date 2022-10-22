@@ -3,7 +3,7 @@ import 'dart:async';
 
 import 'package:flutter/material.dart';
 import 'package:flutter_svg/flutter_svg.dart';
-import 'package:islami/screens/homePage.dart';
+import 'package:islami/screens/Hadith/homePage.dart';
 import 'package:islami/utils/colors.dart';
 
 import '../utils/Strings.dart';
@@ -44,8 +44,8 @@ class _SplashScreenState extends State<SplashScreen> {
           child: Column(
             mainAxisAlignment: MainAxisAlignment.center,
             children: [
-              SvgPicture.asset(
-                "assets/svg/islamic.svg",
+              Image.asset(
+                "assets/svg/islami.png",
                 fit: BoxFit.fitHeight,
               ),
               TextApp.splashScreen,

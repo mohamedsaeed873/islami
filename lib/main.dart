@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:islami/screens/HadithScreen.dart';
 import 'package:islami/screens/splashScreen.dart';
 
 void main() {
@@ -18,7 +17,7 @@ class MyApp extends StatelessWidget {
      
         primarySwatch: Colors.blue,
       ),
-      home: const HadithScreen(),
+      home:  const SplashScreen(),
     );
   }
 }
